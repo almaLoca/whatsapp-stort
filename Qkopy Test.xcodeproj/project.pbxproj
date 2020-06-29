@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2E283F24A7850700901F63 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E283E24A7850700901F63 /* Helper.swift */; };
+		CE2E284224A7B52B00901F63 /* NetworkReachablity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2E284124A7B52B00901F63 /* NetworkReachablity.swift */; };
+		CE4BE05324A689A30003F25B /* OfflineModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE4BE05124A689A30003F25B /* OfflineModel.xcdatamodeld */; };
+		CEB434CA24A60B9F00D103D7 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB434C924A60B9F00D103D7 /* ImageModel.swift */; };
+		CEB434CC24A60CEB00D103D7 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB434CB24A60CEB00D103D7 /* ImageViewModel.swift */; };
+		CEF3EF7224A4B23F008D2BBD /* ImageDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3EF7124A4B23F008D2BBD /* ImageDetailViewController.swift */; };
 		CEFB20B224A3BC56005FA375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB20B124A3BC56005FA375 /* AppDelegate.swift */; };
 		CEFB20B424A3BC56005FA375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB20B324A3BC56005FA375 /* ViewController.swift */; };
 		CEFB20B724A3BC56005FA375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB20B524A3BC56005FA375 /* Main.storyboard */; };
 		CEFB20B924A3BC58005FA375 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFB20B824A3BC58005FA375 /* Assets.xcassets */; };
 		CEFB20BC24A3BC58005FA375 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB20BA24A3BC58005FA375 /* LaunchScreen.storyboard */; };
+		CEFB20CB24A3C442005FA375 /* CustomImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB20CA24A3C442005FA375 /* CustomImageCollectionViewCell.swift */; };
+		CEFB210F24A3D456005FA375 /* AutoScrollingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFB210E24A3D456005FA375 /* AutoScrollingCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2E283E24A7850700901F63 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CE2E284124A7B52B00901F63 /* NetworkReachablity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachablity.swift; sourceTree = "<group>"; };
+		CE4BE05224A689A30003F25B /* OfflineModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OfflineModel.xcdatamodel; sourceTree = "<group>"; };
+		CEB434C924A60B9F00D103D7 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		CEB434CB24A60CEB00D103D7 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		CEF3EF7124A4B23F008D2BBD /* ImageDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailViewController.swift; sourceTree = "<group>"; };
 		CEFB20AE24A3BC56005FA375 /* Qkopy Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qkopy Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFB20B124A3BC56005FA375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFB20B324A3BC56005FA375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		CEFB20B824A3BC58005FA375 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEFB20BB24A3BC58005FA375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEFB20BD24A3BC58005FA375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFB20CA24A3C442005FA375 /* CustomImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEFB210E24A3D456005FA375 /* AutoScrollingCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoScrollingCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2E284024A7B4EE00901F63 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E284124A7B52B00901F63 /* NetworkReachablity.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		CEFB20A524A3BC56005FA375 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +78,54 @@
 		CEFB20B024A3BC56005FA375 /* Qkopy Test */ = {
 			isa = PBXGroup;
 			children = (
+				CE2E284024A7B4EE00901F63 /* Service */,
+				CEFB20C824A3BD74005FA375 /* viewModel */,
+				CEFB20C724A3BD68005FA375 /* View */,
+				CEFB20C624A3BD5C005FA375 /* Model */,
+				CEFB20C524A3BD44005FA375 /* Utilities */,
 				CEFB20B124A3BC56005FA375 /* AppDelegate.swift */,
-				CEFB20B324A3BC56005FA375 /* ViewController.swift */,
+				CE4BE05124A689A30003F25B /* OfflineModel.xcdatamodeld */,
 				CEFB20B524A3BC56005FA375 /* Main.storyboard */,
 				CEFB20B824A3BC58005FA375 /* Assets.xcassets */,
 				CEFB20BA24A3BC58005FA375 /* LaunchScreen.storyboard */,
 				CEFB20BD24A3BC58005FA375 /* Info.plist */,
 			);
 			path = "Qkopy Test";
+			sourceTree = "<group>";
+		};
+		CEFB20C524A3BD44005FA375 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB210E24A3D456005FA375 /* AutoScrollingCollectionView.swift */,
+				CE2E283E24A7850700901F63 /* Helper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CEFB20C624A3BD5C005FA375 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEB434C924A60B9F00D103D7 /* ImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEFB20C724A3BD68005FA375 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB20B324A3BC56005FA375 /* ViewController.swift */,
+				CEFB20CA24A3C442005FA375 /* CustomImageCollectionViewCell.swift */,
+				CEF3EF7124A4B23F008D2BBD /* ImageDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEFB20C824A3BD74005FA375 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEB434CB24A60CEB00D103D7 /* ImageViewModel.swift */,
+			);
+			path = viewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB434CC24A60CEB00D103D7 /* ImageViewModel.swift in Sources */,
+				CE2E284224A7B52B00901F63 /* NetworkReachablity.swift in Sources */,
 				CEFB20B424A3BC56005FA375 /* ViewController.swift in Sources */,
+				CEB434CA24A60B9F00D103D7 /* ImageModel.swift in Sources */,
 				CEFB20B224A3BC56005FA375 /* AppDelegate.swift in Sources */,
+				CEFB20CB24A3C442005FA375 /* CustomImageCollectionViewCell.swift in Sources */,
+				CE2E283F24A7850700901F63 /* Helper.swift in Sources */,
+				CE4BE05324A689A30003F25B /* OfflineModel.xcdatamodeld in Sources */,
+				CEFB210F24A3D456005FA375 /* AutoScrollingCollectionView.swift in Sources */,
+				CEF3EF7224A4B23F008D2BBD /* ImageDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +408,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE4BE05124A689A30003F25B /* OfflineModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE4BE05224A689A30003F25B /* OfflineModel.xcdatamodel */,
+			);
+			currentVersion = CE4BE05224A689A30003F25B /* OfflineModel.xcdatamodel */;
+			path = OfflineModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CEFB20A624A3BC56005FA375 /* Project object */;
 }
